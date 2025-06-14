@@ -1,3 +1,12 @@
-.gridCell {
+.gridContainer {
+    width: 1000px;
+    height: 1000px;
     background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridItem {
+    
+    box-sizing: border-box;
 }
